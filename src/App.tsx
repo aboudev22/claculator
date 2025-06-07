@@ -1,9 +1,9 @@
-import Counter from "./components/Counter";
+import Number from "./components/Numbers";
 
 export default function App() {
   return (
-    <div>
-      <Counter />
+    <div className="flex items-center justify-center bg-neutral-900 w-screen h-screen">
+      <Number />
     </div>
   );
 }
