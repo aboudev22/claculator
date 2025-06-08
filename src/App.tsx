@@ -1,9 +1,9 @@
-import Number from "./components/Numbers";
+import MotionCounter from "./components/MotionCounter";
 
 export default function App() {
   return (
-    <div className="flex items-center justify-center bg-neutral-900 w-screen h-screen">
-      <Number />
+    <div className="w-screen h-screen flex justify-center items-center">
+      <MotionCounter target={102} />
     </div>
   );
 }
